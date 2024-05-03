@@ -8,9 +8,7 @@ const game = {
   gender: ['action', 'zombie', 'survival'],
   year: 2020
 }
-const { title } = game
-const { gender } = game
-const { year } = game
+const { title, gender, year } = game
 console.log(title)
 console.log(gender)
 console.log(year)

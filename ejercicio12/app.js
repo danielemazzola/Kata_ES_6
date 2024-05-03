@@ -6,11 +6,7 @@ Haz varios ejemplos y compruebalos.
 
 Sugerencia de función: */
 const findArrayIndex = (array, text) => {
-  array.filter((val, index) => {
-    if (val.includes(text)) {
-      console.log(index)
-    }
-  })
+  return array.indexOf(text)
 }
 /* Ej array: */
 const mainCharacters = [

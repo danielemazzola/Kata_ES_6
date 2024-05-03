@@ -39,4 +39,4 @@ const findArrayIndex = (array, text) => {
   return i
 }
 
-removeItem(mainCharacters, 'Obi-Wan')
+removeItem(mainCharacters, 'luke')
